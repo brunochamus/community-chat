@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { addDoc, collection, serverTimestamp } from 'firebase/firestore';
 import { db, auth } from '../../firebase';
 import Picker from 'emoji-picker-react';
+import './SendMessage.css'
 
 const SendMessage = ({ scroll }) => {
   const [input, setInput] = useState('');

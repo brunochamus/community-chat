@@ -1,5 +1,6 @@
 import { auth } from "../../firebase"
 import { formatDate } from "../helpers";
+import './Message.css'
 
 const Message = ({ message }) => {
 

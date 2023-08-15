@@ -4,6 +4,7 @@ import { query, collection, orderBy, onSnapshot } from 'firebase/firestore';
 import Message from "../Message/Message";
 import SendMessage from "../SendMessage/SendMessage";
 import { useAuthState } from "react-firebase-hooks/auth";
+import './Chat.css'
 
 const Chat = () => {
   const [messages, setMessages] = useState([]);

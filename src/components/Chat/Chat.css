@@ -1,0 +1,10 @@
+.chat-content {
+    background-color: #7c8697;
+    width: 80%;
+    border-radius: 25px;
+    padding: 39px;
+    height: 80vh;
+    overflow: auto;
+    margin-top: 2rem;
+  }
+  

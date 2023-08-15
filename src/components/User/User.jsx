@@ -3,6 +3,7 @@ import LogIn from '../LogIn/LogIn'
 import LogOut from '../LogOut/LogOut'
 import { auth } from "../../firebase";
 import { useAuthState } from "react-firebase-hooks/auth"
+import './User.css'
 
 const User = () => {
     const [user] = useAuthState(auth);
@@ -13,7 +14,7 @@ const User = () => {
 
   return (
     <div className="right-side">
-        <h1><i className="fa-solid fa-comments"></i>ChatReact</h1>
+        <h1>ChatDev<i className="fa-solid fa-comments"></i></h1>
         <article className="card-user">
             <img src={image} alt="userPhoto" referrerPolicy='no-referrer' />
             <p>{name}</p>

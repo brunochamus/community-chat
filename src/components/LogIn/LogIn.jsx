@@ -1,5 +1,6 @@
 import { GoogleAuthProvider, signInWithRedirect } from "firebase/auth";
 import { auth } from "../../firebase";
+import './Login.css'
 
 
 const LogIn = () => {

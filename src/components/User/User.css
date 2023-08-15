@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&display=swap');
+
+.right-side {
+  font-family: 'REM', sans-serif;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  }
+  .right-side h1 i {
+    margin-left: 10px;
+    color: blue;
+  }
+  .card-user {
+    border: 1px solid #d4d3d3;
+    border-radius: 25px;
+    background-color: #F5F8FC;
+    height: 12rem;
+    width: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+  }
+  .card-user p {
+    font-weight: 500;
+    margin-bottom: 0.2rem;
+  }
+  .card-user img {
+    width: 70px;
+    border-radius: 50%;
+    display: block;
+  }
+
+  @media (max-width: 740px) {
+    .card-user{
+      height: 10rem;
+      width: 12rem;
+    }
+
+    .card-user p{
+      font-size: 1.3rem;
+    }
+
+    .card-user img{
+      width: 50px;
+    }
+
+    .right-side h1{
+      font-size: 2.2rem;
+      margin-top: 2.7rem;
+    }
+  }
